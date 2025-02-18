@@ -1,0 +1,137 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* About Us Section */
+#about {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+#about p {
+    font-size: 1.2em;
+    color: #555;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Courses Section */
+#courses {
+    background-color: #e4e4e4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#courses h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+#courses ul {
+    list-style: none;
+    font-size: 1.2em;
+    color: #555;
+}
+
+#courses ul li {
+    margin: 10px 0;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+#contact p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Container Class for General Layout */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
